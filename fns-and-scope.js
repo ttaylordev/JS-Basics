@@ -40,27 +40,31 @@ function welcome(promptedName) {
 
 //Next Problem
 //Create a function called myName that returns your name
-
   //Code Here
-function myNName() {
+function myName() {
   var name = "Tyson Taylor";
   return name;
 }
 //Now save the function definition of myName into a new variable called newMyName
   //Code Here
-var newMyName = myName();
+var newMyName = myName;
 //Now alert the result of invoking newMyName
-allert(newMyName);
+alert(newMyName);
+
 //Next problem
-
-
-
 //Create a function called outerFn which returns an anonymous function which returns your name.
-
   //Code Here
+  function outerFn() {
+    var retFn = function(){
+      var myOwnName = "Tyson Taylor";
+
+      return myOwnName;
+    };
+    return retFn;
+  }
 
 //Now save the result of invoking outerFn into a variable called innerFn.
-
   //Code Here
-
+var innerFn = outerFn();
 //Now invoke innerFn.
+console.log(innerFn);
