@@ -4,17 +4,20 @@
 var name = 'Tyler';
 //Create a function called isTyler that accepts name as it's only parameter.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
-var function isTyler() {
-    return ;
-}
-  //Code Here
 
+  //Code Here
+var function isTyler(name) {
+  if (name !== "Tyler")
+    return false;
+  }
 //Next problem
 
 
 
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
-
+var function getName() {
+  
+}
 
   //Code Here
 
@@ -57,7 +60,7 @@ var function isTyler() {
 //Create a function called myName that returns your name
 
   //Code Here
-  
+
 
 
 //Now save the function definition of myName into a new variable called newMyName
